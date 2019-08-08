@@ -1,10 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>ImageResizer</title>
 </head>
 <body>
 <h1 id="h1-title">Hello, welcome to ImageResizer</h1>
+<form method="POST" th:action="@{/zuul/image-resizer/uploadFile}" enctype="multipart/form-data">
+    <table>
+        <tr>
+            <td><label path="file">Select a file to upload</label></td>
+            <td><input type="file" name="file"/></td>
+        </tr>
+        <tr>
+            <td><input th:type="submit" value="Submit"/></td>
+        </tr>
+    </table>
+</form>
 </body>
 </html>

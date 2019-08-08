@@ -11,4 +11,9 @@ public class ImageResizer {
     public static void main(String[] args) {
         SpringApplication.run(ImageResizer.class, args);
     }
+//
+//    @Bean
+//    public StandardServletMultipartResolver multipartResolver() {
+//        return new StandardServletMultipartResolver();
+//    }
 }
