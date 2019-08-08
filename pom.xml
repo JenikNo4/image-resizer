@@ -44,13 +44,8 @@
                         <image>localhost:5000/jre11repocert:latest</image>
                     </from>
                     <to>
-                        <image>localhost:5000/image-resizer:latest</image>
+                        <image>localhost:5000/image-resizer:1.0.2</image>
                     </to>
-                    <container>
-                        <ports>
-                            <port>8081-8900</port>
-                        </ports>
-                    </container>
                 </configuration>
             </plugin>
         </plugins>
